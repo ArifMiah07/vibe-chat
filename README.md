@@ -55,7 +55,7 @@ To run this project locally, follow the steps below:
 1. ## Clone the repository: ##
 
 ```bash
-git clone https://github.com/yourusername/vibe-chat.git
+git clone https://github.com/arifmiah07/vibe-chat.git
 cd vibe-chat
 ```
 2. ## Install the dependencies: ## 

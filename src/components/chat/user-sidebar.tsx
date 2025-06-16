@@ -38,14 +38,14 @@ export function UserSidebar({ users, selectedUser, setSelectedUser, isOpen, setI
         <div className="flex items-center space-x-3">
           <div className="relative">
             <img
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+              src="https://images.unsplash.com/photo-1505033575518-a36ea2ef75ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
               alt="Your avatar"
               className="w-10 h-10 rounded-full bg-primary/10"
             />
             <span className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-background"></span>
           </div>
           <div className="flex-1 min-w-0">
-            <h2 className="font-medium truncate">Your Name</h2>
+            <h2 className="font-medium truncate">{'Yung Leing'}</h2>
             <p className="text-xs text-muted-foreground">Online</p>
           </div>
           <div className="flex space-x-1">

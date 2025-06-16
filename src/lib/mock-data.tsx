@@ -1,12 +1,13 @@
 // import type { User, Message } from "@/types/chat"
 
-import { Message, User } from "../types/chat"
+import { Message, User } from "../types/chat";
 
 export const MOCK_USERS: User[] = [
   {
     id: "user-1",
     name: "Alex Johnson",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
     status: "online",
     lastMessage: "Let's meet tomorrow at 10 AM",
     unreadCount: 3,
@@ -14,7 +15,8 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-2",
     name: "Sarah Williams",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
     status: "online",
     lastMessage: "The project looks great!",
     unreadCount: 0,
@@ -22,7 +24,8 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-3",
     name: "Michael Brown",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
     status: "offline",
     lastMessage: "I'll send you the files later",
     unreadCount: 0,
@@ -30,7 +33,8 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-4",
     name: "Emily Davis",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
     status: "online",
     lastMessage: "Thanks for your help!",
     unreadCount: 1,
@@ -38,7 +42,8 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-5",
     name: "David Wilson",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
     status: "offline",
     lastMessage: "See you at the meeting",
     unreadCount: 0,
@@ -46,7 +51,8 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-6",
     name: "Jessica Taylor",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
     status: "online",
     lastMessage: "Did you check the latest update?",
     unreadCount: 2,
@@ -54,7 +60,8 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-7",
     name: "Ryan Martinez",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://plus.unsplash.com/premium_photo-1689606093808-3cb4393248d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
     status: "offline",
     lastMessage: "I'll call you later",
     unreadCount: 0,
@@ -62,12 +69,13 @@ export const MOCK_USERS: User[] = [
   {
     id: "user-8",
     name: "Olivia Anderson",
-    avatar: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    avatar:
+      "https://plus.unsplash.com/premium_photo-1689977807477-a579eda91fa2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
     status: "online",
     lastMessage: "The presentation went well",
     unreadCount: 0,
   },
-]
+];
 
 export const MOCK_MESSAGES: Message[] = [
   {
@@ -88,7 +96,8 @@ export const MOCK_MESSAGES: Message[] = [
   },
   {
     id: "msg-3",
-    content: "Doing well! Just wanted to check if we're still on for tomorrow's meeting?",
+    content:
+      "Doing well! Just wanted to check if we're still on for tomorrow's meeting?",
     senderId: "user-1",
     receiverId: "current-user",
     timestamp: new Date(Date.now() - 86400000 * 2 + 600000), // 10 minutes after
@@ -134,4 +143,4 @@ export const MOCK_MESSAGES: Message[] = [
     timestamp: new Date(Date.now() - 1800000), // 30 minutes ago
     status: "delivered",
   },
-]
+];
